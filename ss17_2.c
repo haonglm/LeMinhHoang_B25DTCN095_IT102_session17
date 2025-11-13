@@ -15,7 +15,7 @@ int main(){
 
 		printf("\nNhap lua chon: ");
 		scanf("%d",&choice);
-
+ 
 		switch(choice){
 			case 1:
 				for (int i = 0; s[i] != '\0'; i++) {

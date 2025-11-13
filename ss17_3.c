@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 
-int main() {
-    char str1[200], str2[100];
+int main(){
+    
+	char str1[200], str2[100];
     printf("Nhap chuoi thu 1: ");
     fgets(str1, sizeof(str1), stdin);
     printf("Nhap chuoi thu 2: ");
